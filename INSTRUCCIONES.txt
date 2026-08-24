@@ -1,0 +1,32 @@
+CÓMO SUBIR ESTE PROYECTO A GITHUB DESDE LA TABLET
+====================================================
+
+1. Crea una cuenta en https://github.com (si no tienes una).
+
+2. Crea un repositorio nuevo:
+   - Toca el "+" arriba a la derecha > "New repository"
+   - Ponle un nombre, por ejemplo: pollos-sabor-pos
+   - Déjalo en "Public" o "Private" (cualquiera funciona)
+   - NO marques "Add a README" (para que quede vacío)
+   - Toca "Create repository"
+
+3. Sube los archivos:
+   - En la página del repo vacío, toca "uploading an existing file"
+   - Arrastra TODOS los archivos y carpetas de este zip
+     (incluida la carpeta oculta .github, muy importante)
+   - Si tu navegador no deja arrastrar carpetas, sube primero
+     los archivos sueltos, y luego entra a cada carpeta (src,
+     .github/workflows) y usa "Add file > Upload files" dentro
+     de cada una para completar la estructura.
+   - Abajo, en "Commit changes", toca el botón verde para confirmar.
+
+4. Se compila solo:
+   - Ve a la pestaña "Actions" del repositorio.
+   - Verás un proceso llamado "Compilar APK" corriendo (tarda
+     unos 3-5 minutos, círculo amarillo = en progreso).
+   - Cuando termine (check verde), entra a ese resultado y baja
+     hasta "Artifacts".
+   - Descarga "PollosYSabor-POS-apk" — es un .zip que contiene
+     tu app-debug.apk, listo para instalar en cualquier Android.
+
+Cada vez que subas un cambio a "main", se vuelve a compilar solo.
